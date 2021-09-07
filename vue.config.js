@@ -7,7 +7,7 @@
 // он отправляет их на 'http://localhost:3000' такой же запрос, и поэтому наши заголовки course уже не актуальны
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
-        ? '/eShop/'
+        ? '/vueshop/'
         : '/',
     devServer: {
         proxy:{
